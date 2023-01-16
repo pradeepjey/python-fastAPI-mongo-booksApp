@@ -3,8 +3,8 @@ from typing import Final
 
 
 mongodb_dbname: Final = "booksApp"
-mongodb_user: Final = "ezzy"
-mongodb_password: Final = "ezzy"
+mongodb_user: Final = ""
+mongodb_password: Final = ""
 mongodb_min_pool_size: Final = 10
 mongodb_max_pool_size: Final = 100
 mongodb_dsn: Final = f"mongodb+srv://{mongodb_user}:{mongodb_password}@cluster1.jgkoc.mongodb.net/{mongodb_dbname}?retryWrites=true&w=majority"
